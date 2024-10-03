@@ -1,0 +1,85 @@
+/* Booklist.css */
+
+.booklist-container {
+    margin-top: 80px; /* Adjust margin to avoid navbar overlap */
+    padding: 20px; /* Add padding to the container */
+  }
+  
+  .card-group {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center align cards */
+  }
+  
+  .card {
+    width: 250px; /* Set a fixed width for cards */
+    background-color: #93ebc6e9; /* Light background for cards */
+    border: 1px solid #ddd; /* Light border around cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Animation for hover effect */
+    align-items: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+  }
+  
+  .card .extra {
+    display: flex; /* Use flexbox for extra content */
+    justify-content: space-between; /* Space out buttons */
+  }
+  
+  /* Add custom button styles */
+  button {
+    margin: 5px 0; /* Space above and below buttons */
+  }
+  
+  button.red {
+    background-color: #e74c3c !important; /* Red background for delete button */
+    color: white !important; /* White text color */
+  }
+  button.red:hover {
+    background-color: #c0392b !important; /* Darker red when hovered */
+    color: white !important; /* Keep text color white */
+}
+  button.primary {
+    background-color: #0aa370 !important; /* Blue background for primary buttons */
+    color: white !important; /* White text color */
+  }
+  button.primary:hover {
+    background-color: #0e7f52 !important; /* Darker green when hovered */
+    color: white !important; /* Keep text color white */
+}
+  button.secondary {
+    background-color: #95a5a6 !important; /* Grey background for secondary buttons */
+    color: white !important; /* White text color */
+  }
+  /* Booklist.css */
+.booklist-container {
+    padding: 20px; /* Add padding around the container */
+  }
+  /* In index.css or App.css */
+body {
+  background-color: #f0f8ff; /* Light blue background color */
+}
+
+  .card-group {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center the cards */
+    margin-top: 20px; /* Add margin at the top */
+  }
+  
+  .card {
+    margin: 10px; /* Add some margin around the cards */
+    text-align: center; /* Center the text within the card */
+  }
+  
+  .card-header,
+  .card-meta,
+  .card-description {
+    text-align: center; /* Center-align the header, meta, and description */
+  }
+  

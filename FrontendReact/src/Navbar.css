@@ -1,0 +1,39 @@
+/* Navbar.css */
+.navbar {
+    width: 100%; /* Make the navbar full width */
+    background-color: #00b074; /* Background color */
+    padding: 10px 20px; /* Padding for the navbar */
+    border-bottom: 1px solid #ccc; /* Optional: Add a bottom border for separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    position: fixed; /* Keep the navbar fixed at the top */
+    top: 0; /* Align it to the top */
+    z-index: 1000; /* Ensure it stays above other content */
+    right:0;
+}
+
+.navbar-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between header and buttons */
+    align-items: center; /* Vertically center items */
+    width: 100%; /* Take full width */
+}
+
+.navbar-header {
+    flex: 1; /* Allow header to take available space */
+    text-align: center; /* Keep text centered */
+    color: rgb(0, 0, 0); /* Set header text color */
+    margin-right: -250px; /* Adjust the value to move it left */
+}
+
+
+.navbar .menu {
+    display: flex; /* Ensure the menu uses flexbox */
+}
+
+.navbar .menu .item {
+    margin-left: 10px; /* Space between buttons */
+}
+
+.navbar .menu .button {
+    margin-left: 0; /* No additional margin for button spacing */
+}

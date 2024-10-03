@@ -1,0 +1,40 @@
+.add-book-container {
+    max-width: 400px; /* Set a max width for the form */
+    margin: 20px auto; /* Center the form on the page */
+    padding: 20px;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Round the corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    background-color: #93ebc6e9; /* Background color */
+  }
+  
+  h2 {
+    text-align: center; /* Center the heading */
+  }
+  
+  .add-book-form {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+  }
+  
+  .form-input {
+    margin: 10px 0; /* Add margin between inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Input border */
+    border-radius: 5px; /* Round the corners of the input */
+  }
+  
+  .submit-button {
+    padding: 10px; /* Padding inside button */
+    background-color: #046e37; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .submit-button:hover {
+    background-color: #078544; /* Darker shade on hover */
+   
+  }
+  
